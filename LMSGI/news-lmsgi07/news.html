@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Imperial News Site</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Ángel Martínez">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta property="og:site_name" content="Imperial News">
+	<meta property="og:url" content="https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html">
+	<meta property="og:title" content="Imperial News">
+	<meta property="og:image" content="https://rawgit.com/am4rtinez/news-lmsgi07/master/img/darth3.jpg">
+	<meta property="og:description" content="Tu sitio de noticias frikis Imperiales">
+	<link rel="icon" type="image/png" href="favicon.ico" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="alternate" type="application/rss+xml" title="IMperial News RSS" href="https://rawgit.com/am4rtinez/news-lmsgi07/master/rss/rss.xml">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/news.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="news.html"><img src="img/logo.png" alt="logo site"></a>
+    		</div>
+	    	<div class="collapse navbar-collapse" id="myNavbar">
+	      		<ul class="nav navbar-nav navbar-right">
+	      			<li><a href="#inicio">Inicio</a></li>
+	        		<li><a href="#new_1">Noticia 1</a></li>
+	        		<li><a href="#new_2">Noticia 2</a></li>
+	        		<li><a href="#new_3">Noticia 3</a></li>
+	      		</ul>
+	    	</div>
+  		</div>
+	</nav>
+
+	<header id="inicio" class="jumbotron text-center">
+	   	<h1>Imperial News</h1>
+	   	<p>Tu sitio de noticias frikis!</p>
+	</header>
+
+	<div class="container text-center">
+		<div class="row">
+			<div class="stats col-sd-6 col-md-6 col-lg-6">
+				<span class="glyphicon glyphicon-eye-open"></span>
+				<p>3 noticias visualizadas en el sitio.</p>
+			</div>
+			<div class="col-sd-6 col-md-6 col-lg-6">
+				<button id="scrolling" type="button" class="btn"><span class="glyphicon glyphicon-play"></span> Activar Scrolling</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="publicaciones" class="container">
+		<div class="advert-container">
+			<div class="container-fluid text-center">
+				<div class="imagen">
+					<a href="https://promociones.betfair.es/sbk-bono-hasta100gratis-barcelona?utm_medium=Partnerships&utm_source=2139736&utm_campaign=8885701&utm_term=4944329&utm_content=120455144&utm_ad=294532557&clkID=38484_E26A8F3863B64FCFA212889D836C1454&rfr=38484&ttp=111&pid=1979091&bid=2039SUBID=&offerid=&dclid=CN6m9s3l49MCFcKoUQodknENvA">
+						<img class="img-responsive center-block" src="img/bono-betfair.jpg" alt="publicidad betfair">
+						<p>Apuestas Betfair</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="main-container">
+			<div id="new_1" class="container-fluid">
+				<section class="noticias">
+					<h2><a href="news1.html">Star Wars Battlefront 2 tendrá modo campaña: todos los detalles</a></h2>
+					<div class="datetime">
+						<span class="glyphicon glyphicon-calendar"> </span><span>01/02/2017 12:00</span>
+					</div>
+					<div class="informacion">
+						<p>Todo fan de Star Wars que se precie vive pendiente del lanzamiento de nuevos videojuegos de la franquicia. Por eso, todos recibieron con los brazos abiertos el que se ha convertido en uno de los mejores shooter hoy por hoy: Star Wars Battlefront. La buena noticia para ellos es que EA Games ha desvelado nuevos detalles sobre Star Wars Battlefront 2.</p>
+					</div>
+					<div class="imagen">
+						<img class="img-responsive center-block" src="img/SW_BF2_Logo.png" alt="Logo Battlefront 2">
+					</div>
+					<div class="read">
+						<a href="news1.html">Seguir leyendo >></a>
+					</div>
+				</section>
+			</div>
+			<div id="new_2" class="container-fluid">
+				<section class="noticias">
+					<h2><a href="news2.html">Todo lo que necesitas saber sobre Star Wars Battlefront II</a></h2>
+					<div class="datetime">
+						<span class="glyphicon glyphicon-calendar"> </span><span>17/04/2017 18:00</span>
+					</div>
+					<div class="informacion">
+						<p>La llegada de 'Los Últimos Jedi' coincidirá con el 40º aniversario de la saga galáctica por excelencia y tanto Disney como Lucasfilm no repararán en medios para celebrar esta alineación de astros, siendo 'Star Wars Battlefront II' su propuesta estrella para consolas y PC.</p>
+					</div>
+					<div class="imagen">
+						<img class="img-responsive center-block" src="img/BF2_img.png" alt="Imagen Battlefront 2">
+					</div>
+					<div class="read">
+						<a href="news2.html">Seguir leyendo >></a>
+					</div>
+				</section>
+			</div>
+			<div id="new_3" class="container-fluid">
+				<section class="noticias">
+					<h2>Star Wars VIII: Los últimos Jedi - El collar de Luke esconde un secreto (RUMOR)</h2>
+					<div class="datetime">
+						<span class="glyphicon glyphicon-calendar"> </span><span>25/05/2017 10:00</span>
+					</div>
+					<div class="informacion">
+						<p>Un nuevo rumor de Star Wars VIII - Los últimos Jedi apunta a un secreto escondido en el collar que lleva Luke Skywalker y que tendría que ver con Darth Vader.</p>
+						<p>El teaser tráiler de Star Wars: Episodio VIII - Los últimos Jedi ha reavivado la imaginación de los millones de fans de la saga y también muchos, que digo, muchísimos rumores, por supuesto sin confirmación ninguna.</p>
+					</div>
+					<div class="imagen">
+						<img class="img-responsive center-block" src="img/SW8-Trailer.jpg" alt="Imagen Teaser Trailer">
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<div class="container text-center">
+		<hr>
+		<button id="more-news" type="button" class="btn"><span class="glyphicon glyphicon-plus"></span> Más noticias</button>
+	</div>
+	<footer class="container-fluid text-center">
+  		<a href="#myPage" title="To Top">
+    		<span class="glyphicon glyphicon-chevron-up"></span>
+  		</a>
+  		<p>Developed By A. Martínez - LMSGI_ASIR</p>
+	</footer>
+</body>
+</html>

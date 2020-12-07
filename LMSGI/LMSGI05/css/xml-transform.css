@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Cabin|Catamaran|Open+Sans');
+body {
+	/*
+	font-family: 'Baloo', cursive;
+	font-family: 'Cabin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	*/
+	font-family: Arial;
+	background: #FFFFEF;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	//color: #fff;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+th {
+	background: #cdd8f6;
+	border: 1px solid #000;
+}
+
+td {
+	border: 1px solid #000;
+}
+
+td .correcta {
+	border: none;
+	padding: 2px;
+}
+
+td .opciones_text{
+	border: none;
+	padding: 2px;
+}
+
+.respuesta{
+	text-align: center;	
+}
+
+.titulo {
+	padding: 5px;
+}
+
+span, .correcta {
+	background:#58FA82;
+	color:#088A29;
+	padding-left:5px;
+	padding-right:5px;
+}

@@ -1,0 +1,200 @@
+body{
+	background: #424242;
+	font-family: Arial;
+}
+
+#wrapper {
+	
+}
+
+#page {
+	margin: 0 auto;
+	width: 95%;
+	background: #F7F8E0;
+}
+
+/* Elementos HEADER*/
+header{
+	margin: 0 auto;
+	height: 180px;
+	background: #000;
+}
+
+header h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+	padding-left: 110px;
+	padding-top: 20px;
+}
+
+header h1 a{
+	color:  #fff;
+	text-decoration: none;
+}
+
+header h1 a:active{
+	color:  #fff;
+}
+
+header h1 a:visited{
+	color:  #fff;
+}
+
+header h1 a:hover{
+	color:  #fff;
+}
+
+
+header h2{
+	color: #A4A4A4;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 110px;
+	margin-top: -30px;
+	font-style: italic;
+}
+
+#logo {
+	background: url(../img/logo.png) no-repeat;
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+    height: 100%;
+}
+
+/* Elementos NAV*/
+nav {
+	height: 50px;
+	width: 100%;
+	background: #DC074B;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DC074B;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #88022D;
+    color: #fff;
+}
+
+/* Contenido */
+#content {
+	font-size: 13px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#content article{
+	background: #fff;
+	width: 95%;
+	margin: 0 auto;
+}
+
+#content article h1{
+	background: #AB355A;
+	height: 30px;
+	padding-top: 1%;
+	padding-left: 3%;
+	border: 1px #585858 solid;
+}
+
+#content article section{
+	margin-top: -17px;
+	border: 1px #585858 solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#content article section a{
+	color: #DC074B;
+	text-decoration: none; 
+}
+
+
+#content article section p{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#content article section ul{
+	padding-left: 3%;
+	padding-right: 3%;
+	list-style: circle inside url('../img/list-rpi.png');
+}
+
+#content article section div.polaroid {
+	margin: auto;
+  	background-color: white;
+  	width: 20%;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-bottom: 25px;
+}
+
+#content article section div.polaroid img{
+  	margin: auto;
+  	width: 100%;
+  	height: auto;
+}
+
+#content article section div.container {
+  	text-align: center;
+ 	padding: 5px 5px;
+ 	border-top: 1px solid #000;
+}
+
+#content article section div.container p{
+  	font-size: 10px;
+}
+
+#content article section table {
+	margin: 0 auto;
+	width: 96%;
+	border-collapse: collapse;
+}
+
+#content article section th { 
+  	background: #333; 
+  	color: white; 
+  	font-weight: bold; 
+}
+#content article section td, th { 
+  	padding: 6px; 
+  	border: 1px solid #ccc; 
+  	text-align: left; 
+}
+
+/* Footer */
+footer{
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 100px;
+	background: #000;
+	color: #fff;
+}
+
+footer p{
+	margin: auto;
+	padding-top: 40px;
+	text-align: center;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Project Lunar Landing</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+        <link rel="icon" type="image/png" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Proyecto Web de Aterrizaje Lunar">
+        <meta name="keywords" content="Lunar,Landing">
+        <meta name="author" content="Ángel Martínez">
+        <meta charset="UTF-8">
+        <script src="js/code.js"></script>
+    </head>
+    <body>
+        <div id="nave">
+            <img id="imgship" src="img/nave.png" alt="img nave">
+            <img id="imgprop" src="img/propulsion.gif" alt="propulsion">
+        </div>
+        
+        <div class="moon">
+            <img id="imgmoon" src="img/moon.png" alt="Imagen de la luna">
+        </div>
+
+        <!--Columna -1 contiene el control panel -->
+        <div class="col-1">
+            <div id="visible"><button>Control Panel</button></div>
+            <div id="control-panel">
+                <div class="info">
+                    <div class="field">Speed:</div>
+                    <div class="data"><span id="speed">0</span> m/s</div>
+                </div>
+                <div class="info">
+                    <div class="field">Energy:</div>
+                    <div class="data"><span id="energy">100</span>%</div>
+                </div>
+                <div class="info">
+                    <div class="field">Altitude:</div>
+                    <div class="data"><span id="altitude">10000</span>m</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2">
+            <div class="showlife">
+                <img id="life3" class="life" src="img/life8bit.png" alt="vida3">
+                <img id="life2" class="life" src="img/life8bit.png" alt="vida2">
+                <img id="life1" class="life" src="img/life8bit.png" alt="vida1">
+            </div>
+        </div>
+        <div class="col-3">
+            <nav id="menu">
+                <ul>
+                    <li class="current"><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Acerca de ...</a></li>
+                    <li><a href="howto.html">Instrucciones</a></li>
+                    <li id="reset"><a>Reset</a></li>
+                    <li id="oculto"><a>Ocultar C-Panel</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div id="gameover">
+            <h1>GAME OVER!</h1>
+            <p>Has superado los intentos máximos</p>
+            <button id="newgame1">Jugar de nuevo</button>
+        </div>
+        <div id="retry">
+            <h1>TRY AGAIN!</h1>
+            <p>La velocidad debe ser inferior a 4 m/s </p>
+            <button id="newtry">Inténtalo de nuevo</button>
+        </div>
+        
+        <div id="youwin">
+            <h1>YOU WIN!</h1>
+            <p>Has conseguido aterrizar sano y salvo! 
+               Eres digno de ser un colono espacial.</p>
+            <button id="newgame2">Jugar de nuevo</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Cabin|Catamaran|Open+Sans');
+body {
+    /*
+    font-family: 'Baloo', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    */
+    font-family: Arial;
+    background-color: #2E2E2E;
+}
+
+#wrapper {
+    
+}
+
+#page {
+    background-color: #FBFCDA;
+    margin: 0 auto;
+    width: 95%;
+}
+
+/* Elementos HEADER*/
+header{
+    margin: 0 auto;
+    background: #500c0c;
+    background: -webkit-linear-gradient(left, #500c0c, #111111);
+    background: -moz-linear-gradient(left, #500c0c, #111111);
+    background: -ms-linear-gradient(left, #500c0c, #111111);
+    background: -o-linear-gradient(left, #500c0c, #111111);
+    background: linear-gradient(to right, #500c0c, #111111);
+    height: 180px;
+}
+
+header h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+header h1 a{
+    color:  #fff;
+    text-decoration: none;
+}
+
+header h1 a:active{
+    color:  #fff;
+}
+
+header h1 a:visited{
+    color:  #fff;
+}
+
+header h1 a:hover{
+    color:  #fff;
+}
+
+header h2{
+    color: #A4A4A4;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#logo {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+/* Elementos NAV*/
+nav {
+    height: 50px;
+    width: 100%;
+    background: #1C1C1C;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1C1C1C;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #88022D;
+    color: #fff;
+}
+
+/* Contenido */
+#content {
+    font-size: 12px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#content table {
+    margin: 0 auto;
+    width: 96%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+#content th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+}
+#content td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+}
+
+#titulo {
+
+}
+
+#titulo h1{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+}
+
+#formulario {
+    width: 60%;
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 12px;
+    border: 1px solid #000;
+    background: #BDBDBD;
+}
+
+#formulario h2{
+    text-align: center;
+    border: 2px solid #424242;
+    background: #fff;
+    padding: 5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.procesado {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #fff;
+    width: 60%;
+}
+
+.texto {
+    width: 60%;
+}
+
+.select {
+    width: 60%;
+}
+
+.button {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 30px;
+}
+
+.titulo {
+    padding: 5px;
+}
+
+.requirido {
+    color: #f00;
+    padding-left: 2px;
+}
+
+.campo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.field {
+    font-weight: bold;
+} 
+
+.data {
+
+}
+
+textarea {
+    width: 98%;
+}
+
+footer{
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 100px;
+    background: #1C1C1C;
+    color: #fff;
+}
+
+footer p{
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 599px) {
+    header {
+
+    }
+
+    header h1{
+        font-size: 1.5em;
+        padding-left: 25%;
+        padding-top: 2%;		
+    }
+
+    header h2{
+        font-size: 0.8em;
+        padding-left: 25%;
+        margin-top: -10px;
+    }
+
+    #logo {
+        background: url(../img/logo.png) no-repeat top 20% left 15px;
+        background-size: 20%;
+        top: 15%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+
+    header {
+
+    }
+
+    header h1{
+        font-size: 1.8em;
+        padding-left: 145px;
+        padding-top: 15px;		
+    }
+
+    header h2{
+        font-size: 0.8em;
+        padding-left: 145px;
+        margin-top: -10px;
+    }
+
+    #logo {
+        background: url(../img/logo.png) no-repeat top left 15px;
+        top: 25px;
+        height: 100%;
+    }
+
+}
+
+/*Laptop Media*/
+@media only screen and (min-width: 700px) and (max-width: 1095px) { 
+
+    header {
+
+    }
+
+    header h1{
+        font-size: 2.35em;
+        padding-left: 150px;
+        padding-top: 20px;		
+    }
+
+    header h2{
+        font-size: 1.2em;
+        padding-left: 150px;
+        margin-top: -30px;
+    }
+
+    #logo {
+        background: url(../img/logo.png) no-repeat top left 15px;
+        top: 25px;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1096px) {
+    header {
+
+    }
+
+    header h1{
+        font-size: 2.55em;
+        padding-left: 150px;
+        padding-top: 15px;		
+    }
+
+    header h2{
+        font-size: 1.5em;
+        padding-left: 150px;
+        margin-top: -35px;
+    }
+
+    #logo {
+        background: url(../img/logo.png) no-repeat top left 15px;
+        top: 30px;
+        height: 100%;
+    }
+}

@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Raspberry Pi</title>
+		<link rel="stylesheet" type="text/css" href="css/theme.css">
+		<link rel="icon" type="image/png" href="favicon.ico" />
+		<meta name="description" content="Información diversa sobre la placa Raspberry Pi">
+		<meta name="keywords" content="Raspberry,Pi,RPi,Raspbian">
+		<meta name="author" content="Ángel Martínez">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="page">
+				<header>
+					<div id="logo">
+						<h1><a href="#">Raspberry Pi</a></h1>
+						<h2>Micro-PC al alcance de todos</h2>
+					</div>					
+				</header>
+				<nav>
+					<ul>
+						<li><a href="#home">Introducción</a></li>
+						<li><a href="#history">Breve Historia</a></li>
+						<li><a href="#models">Modelos</a></li>
+						<li><a href="#specifications">Especificaciones</a></li>
+						<li><a href="#biblio">Bibliografía</a></li>
+					</ul>
+				</nav>
+				<div id="content">
+					<article>
+						<h1 id="home">Introducción</h1>
+						<section>
+							<p>Raspberry Pi es un ordenador de placa simple (SBC) de bajo coste. Su tamaño no es muy superior al de una tarjeta de crédito. </p>
+							<p>Está desarrollado en Reino Unido por la Fundación Raspberry Pi, promocionado gracias a Google y con el fin de usarse en la enseñanza en escuelas.</p>
+							<p>Hasta el momento existen 3 generaciones además de una versión mini (Rpi Zero) y varios periféricos.</p>
+							<div class="polaroid">
+								<img src="img/rpi3-b.png" alt="Imagen de una placa rpi" >
+								<div class="container">
+									<p>Placa Modelo B Raspberry Pi 3</p>
+								</div>
+							</div>
+						</section>
+					</article>
+					<article>
+						<h1 id='models'>Modelos</h1>
+						<section>
+							<ul>
+								<li><a href="https://www.raspberrypi.org/products/model-a/">Raspberry Pi 1 Modelo A</a></li>
+								<li><a href="https://www.raspberrypi.org/products/model-a-plus/">Raspberry Pi 1 Modelo A+</a></li>
+								<li><a href="https://www.raspberrypi.org/products/model-b/">Raspberry Pi 1 Modelo B</a></li>
+								<li><a href="https://www.raspberrypi.org/products/model-b-plus/">Raspberry Pi 1 Modelo B+</a></li>
+								<li><a href="https://www.raspberrypi.org/products/raspberry-pi-2-model-b/">Raspberry Pi 2 Modelo B</a></li>
+								<li><a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">Raspberry Pi 3 Modelo B</a></li>
+								<li><a href="https://www.raspberrypi.org/products/pi-zero/">Raspberry Pi Zero</a></li>
+							</ul>
+						</section>
+					</article>
+					<article>
+						<h1 id="history">Breve Historia</h1>
+						<section>
+							<p>Como se indica en la introducción la Raspberry Pi es un ordenador de placa simple (SBC), desarrollado en Reino Unido y con un objetivo orientado a la enseñanza.</p>
+							<p>Sus primeros diseños (2006) se basaban en el microcontrolador Atmel ATmega644.</p>
+							<p>En mayo de 2009 se funda la Fundacionr Raspberry Pi</p>
+							<p>El primer lote de 10000 placas fue fabricado en Taiwan y en China, no en Reino Unido, debido al ahorro que ello conllevaba y aprovechando este para ser invertido en investigación y desarrollo.</p>
+							<p>A partir de diciembre de 2015 se puso a la venta la segunda generación de la placa, ya tan famosa, Raspberry Pi 2 con mejores prestaciones (ARM Quad-Core 900 MHz, 1 GB RAM, 4 x USB, HDMI, RJ-45)</p>
+							<p>En febrero de 2016 salió al mercado la 3 generación de la placa mejorando aun más las prestaciones iniciales y las de su predecesora (ARM Quad-Core 1,2 GHz, 1 GB RAM, 4 x USB, HDMI, RJ-45 y una conectividad inalámbrica integrada de 802.11 b/g/n LAN y Bluetooth).</p>
+							<p>Entre la 2 y 3 generación nace la Raspberry Zero (26 de noviembre de 2015) con un tamaño reducido (65 mm x 30mm) </p>
+							<div class="polaroid">
+								<img src="img/raspberry-pizero.png" alt="Imagen de una placa rpi zero" >
+								<div class="container">
+									<p>Placa Modelo B Raspberry Pi 3</p>
+								</div>
+							</div>
+						</section>
+					</article>	
+					<article>
+						<h1 id="specifications">Especificaciones técnicas </h1>
+						<section>
+							<table>
+								<thead>
+									<tr>
+										<th> </th>
+										<th>Raspberry Pi 1 Modelo A</th>
+										<th>Raspberry Pi 1 Modelo B</th>
+										<th>Raspberry Pi 1 Modelo B+</th>
+										<th>Raspberry Pi 2 Modelo B</th>
+										<th>Raspberry Pi 3 Modelo B</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>SoC</td>
+										<td colspan="3">Broadcom BCM2835 (CPU + GPU + DSP + SDRAM + puerto USB)</td>
+										<td>Broadcom BCM2836 (CPU + GPU + DSP + SDRAM + Puerto USB)</td>
+										<td>Broadcom BCM2837 (CPU + GPU + DSP + SDRAM + Puerto USB</td>
+									</tr>
+									<tr>
+										<td>CPU</td>
+										<td colspan="3">ARM 1176JZF-S a 700 MHz (familia ARM11)</td>
+										<td>900 MHz quad-core ARM Cortex A7</td>
+										<td>1.2GHz 64-bit quad-core ARMv8</td>
+									</tr>
+									<tr>
+										<td>Juego de instrucciones</td>
+										<td colspan="5">RISC de 32 bits</td>
+									</tr>
+									<tr>
+										<td>GPU</td>
+										<td colspan="5">Broadcom VideoCore IV, OpenGL ES 2.0, MPEG-2 y VC-1 (con licencia), 1080p30 H.264/MPEG-4 AVC</td>
+									</tr>
+									<tr>
+										<td>Memoria (SDRAM)</td>
+										<td>256 MiB (compartidos con la GPU)</td>
+										<td colspan="2">512 MiB (compartidos con la GPU)4 desde el 15 de octubre de 2012</td>
+										<td colspan="2">1 GB (compartidos con la GPU)</td>
+									</tr>
+									<tr>
+										<td>Puertos USB 2.0</td>
+										<td>1</td>
+										<td>2 (vía hub USB integrado)</td>
+										<td colspan="3">4</td>
+									</tr>
+									<tr>
+										<td>Entradas de vídeo</td>
+										<td colspan="5">Conector MIPI CSI que permite instalar un módulo de cámara desarrollado por la RPF</td>
+									</tr>
+									<tr>
+										<td>Salidas de vídeo</td>
+										<td colspan="5">Conector RCA (PAL y NTSC), HDMI (rev1.3 y 1.4), Interfaz DSI para panel LCD</td>
+									</tr>
+									<tr>
+										<td>Salidas de audio</td>
+										<td colspan="5">Conector de 3.5 mm, HDMI</td>
+									</tr>
+									<tr>
+										<td>Almacenamiento integrado</td>
+										<td colspan="2">SD / MMC / ranura para SDIO</td>
+										<td colspan="3">MicroSD</td>
+									</tr>
+									<tr>
+										<td>Conectividad de red</td>
+										<td>Ninguna</td>
+										<td colspan="3">10/100 Ethernet (RJ-45) via hub USB</td>
+										<td>10/100 Ethernet (RJ-45) vía hub USB, Wifi 802.11n, Bluetooth 4.1</td>
+									</tr>
+									<tr>
+										<td>Periféricos de bajo nivel</td>
+										<td colspan="3">8 x GPIO, SPI, I²C, UART</td>
+										<td colspan="2">17 x GPIO y un bus HAT ID</td>
+									</tr>
+									<tr>
+										<td>Reloj en tiempo real</td>
+										<td colspan="5">Ninguno</td>
+									</tr>
+									<tr>
+										<td>Consumo energético</td>
+										<td>500 mA, (2.5 W)</td>
+										<td>700 mA, (3.5 W)</td>
+										<td>600 mA, (3.0 W)</td>
+										<td colspan="2">800 mA, (4.0 W)</td>
+									</tr>
+									<tr>
+										<td>Fuente de alimentación</td>
+										<td colspan="5">5 V vía Micro USB o GPIO header</td>
+									</tr>
+									<tr>
+										<td>Dimensiones</td>
+										<td colspan="5">85.60mm × 53.98mm (3.370 × 2.125 inch)</td>
+										
+									</tr>
+									<tr>
+										<td>Sistemas operativos soportados</td>
+										<td colspan="5">GNU/Linux: Debian (Raspbian), Fedora (Pidora), Arch Linux (Arch Linux ARM), Slackware Linux, Ubuntu Mate, Rasplex,RISC OS, ect.</td>
+									</tr>
+								</tbody>		
+							</table>
+							<br/>
+							<div class="polaroid">
+								<img src="img/rpi_function.png" alt="Diagrama de bloques funcionamiento rpi">
+								<div class="container">
+									<p>Diagrama de bloques funcionamiento rpi</p>
+								</div>
+							</div>
+						</section>
+					</article>
+					<article>
+						<h1 id="biblio">Bibliografía</h1>
+						<section>
+							<ul>
+								<li><a href="https://es.wikipedia.org/wiki/Raspberry_Pi">Wikipedia Raspberry Pi</a>
+								<li><a href="https://www.raspberrypi.org/products/">Raspberry Pi</a></li>
+								<li><a href="http://www.xataka.com/makers/donde-estan-las-raspberry-pi-zero">Xakata</a></li>
+								<li><a href="http://blog.protoneer.co.nz/raspberry-pi-zero-footprint-dimensions/">Dimensiones RPi Zero</a></li>
+								<li><a href="http://www.w3schools.com/css/">CSS</a></li>
+								<li><a href="http://www.w3schools.com/html/">HTML</a></li>
+								<li><a href="http://html-color-codes.info/">Colores HTML</a></li>
+							</ul>
+						</section>
+					</article>
+				</div>
+				<footer>
+					<p>
+						<a href="http://jigsaw.w3.org/css-validator/check/referer">
+						    <img style="border:0;width:88px;height:31px"
+						        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+						        alt="¡CSS Válido!" />
+					    </a>
+					    Ángel Martínez - ASIR 2016/17 - LMSGI
+					    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+					        <img style="border:0;width:88px;height:31px"
+					            src="http://jigsaw.w3.org/css-validator/images/vcss"
+					            alt="¡CSS Válido!" />
+					    </a>						
+					</p>
+				</footer>	
+			</div>
+		</div>
+	</body>
+</html>
